@@ -91,7 +91,7 @@ public enum SongList {
     SONG_83("All Night (feat. Knox Fortune)", 141542),
     SONG_84("Waves", 181573),
     SONG_85("POWER", 292093),
-    SONG_86("Trap Niggas", 183800),
+    SONG_86("Somebody Else", 348000),
     SONG_87("Outlet", 268813),
     SONG_88("Actin Crazy", 239466),
     SONG_89("Bandz A Make Her Dance", 278826),
