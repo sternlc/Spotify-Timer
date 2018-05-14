@@ -1,7 +1,7 @@
 # Spotify Timer Playlist Algorithm
 The algorithm for the Spotify Timer feature is very simple and quick. 
 
-The files in this repository allow you to test the algorithm using a list of over 100 songs.
+The files in this repository allow you to test the algorithm using a list of 100 songs.
 
 
 ## How The Algorithm Functions
