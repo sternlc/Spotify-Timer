@@ -34,7 +34,8 @@ public class Main {
      * @param args The arguments to append.
      */
     public static void main(String[] args) {
-        long desiredTime = (Utils.hour * hours) + (Utils.minute * minutes);
+        final long startTime = System.currentTimeMillis();
+        final long desiredTime = (Utils.hour * hours) + (Utils.minute * minutes);
         List<SongList> songList = Arrays.asList(SongList.values());
         Collections.shuffle(songList);
         toAdd.clear();
@@ -57,7 +58,9 @@ public class Main {
                     durationSum = durationSum + list.getDuration();
                 }
                 System.out.println("------");
-                System.out.println("Total Time = " + ((durationSum / Utils.second) / 60) + " minutes");
+                System.out.println("Playlist Time = " + ((durationSum / Utils.second) / 60) + " minutes");
+                final long duration = System.currentTimeMillis() - startTime;
+                System.out.println("Finished in " + duration + "ms.");
                 break;
             }
         }
