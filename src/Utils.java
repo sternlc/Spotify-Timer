@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * A utility class.
  *
@@ -33,5 +35,21 @@ public class Utils {
             return false;
         }
         return true;
+    }
+
+    /**
+     * Gets the shortest song duration from the song list.
+     *
+     * @param list The song list.
+     * @return The shortest duration (in milliseconds).
+     */
+    public static long getShortestDuration(List<SongList> list) {
+        long shortestDuration = list.get(0).getDuration();
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getDuration() < shortestDuration) {
+                shortestDuration = list.get(i).getDuration();
+            }
+        }
+        return shortestDuration;
     }
 }

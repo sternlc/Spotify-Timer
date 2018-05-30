@@ -40,6 +40,10 @@ public class Main {
         Collections.shuffle(songList);
         toAdd.clear();
         index = 0;
+        if (desiredTime <= 1 || desiredTime < Utils.getShortestDuration(songList)) {
+            System.out.println("The selected playlist time is shorter than any song from the selected list!");
+            return;
+        }
         while (true) {
             if (loop(desiredTime, songList) != desiredTime) {
                 index++;
