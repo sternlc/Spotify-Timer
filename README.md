@@ -54,4 +54,4 @@ The total sum is equal to the desired playlist sum, so the addition stops and th
 
 ---
 
-This is the proposed solution I have created, however, as a disclaimer I do not have any formal education in computer science, so **this may not be the most efficient or best method for achieving the desired results.
+This is the proposed solution I have created, however, as a disclaimer I do not have any formal education in computer science, so **this may not be the most efficient or best method for achieving the desired results.**
