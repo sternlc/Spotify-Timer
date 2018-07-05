@@ -11,7 +11,7 @@ The files in this repository allow you to test the algorithm using a list of 100
 4. Starting with the first song in the list (index 0), the items are sequentially added until the sum of the songs is the same as the desired playlist time. There is a leniency of +/-1 second. While adding the songs, if the next song added causes the total sum to exceed the desired sum, the first item is removed and the sequence continues until the times are equal.
 
 ## Example
-This times in this example are simplified. 
+The times in this example are simplified. 
 
 1. Start with a list of songs. The list is as follows:
 ```
@@ -51,3 +51,7 @@ Again, the sum is greater than the desired playlist time, so the first item (Son
 EDBF(25m)
 ```
 The total sum is equal to the desired playlist sum, so the addition stops and the playlist is created with the selected songs, Song E, Song D, Song B, and Song F.
+
+---
+
+This is the proposed solution I have created, however, as a disclaimer I do not have any formal education in computer science, so **this may not be the most efficient or best method for achieving the desired results.
